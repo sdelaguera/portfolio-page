@@ -226,7 +226,7 @@ a:hover, a:focus, #i-learned:hover {
     }
 
     .containerOne img, .containerTwo img {
-        width:100%;
+        max-width:100%;
 
     }
 }

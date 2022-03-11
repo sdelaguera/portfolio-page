@@ -5,7 +5,7 @@ body {
     font-size: 30px;
 }
 
-#container-one {
+#container {
     display:flex;
     margin: 0 auto;
     align-items: center;
@@ -18,24 +18,28 @@ body {
 h1 {
     color: #fffffe;
     font-size: 5rem;
+    
+    font-weight: 700;
 }
 
 h2 {
     color: #b8c1ec;
     font-size: 2rem;
+    
+    font-weight: 700;
 }
 
-.intro-left {
+.intro-left, .two-left {
     padding: 5%;
     max-width: 60%;
 }
 
-.intro-right {
+.intro-right, .two-right {
     padding: 5%;
     max-width: 40%;
     position: relative;
 }
-.intro-right img {
+.intro-right img, .two-left img {
     border-radius: 50%;
     max-width: 700px;
 }
@@ -53,7 +57,7 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    transition: .5s ease;
+    transition: 1s ease;
     text-align: center;
     color: #fffffe;
 
@@ -79,3 +83,23 @@ h2 {
  } 
 
  /* SECTION TWO */
+.containerTwo {
+    transition: 1s ease;
+}
+
+ .accent {
+     color: #eebbc3;
+     font-weight: 700;
+ }
+
+ .accent-one {
+     text-align: right;
+ }
+
+ .accent-two {
+     text-align: center;
+     color: #FE7F2D;
+
+ }
+
+

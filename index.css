@@ -42,14 +42,13 @@ h2 {
 .intro-left, .two-left {
     padding: 5%;
     max-width: 60%;
-    border: 1px solid white;
 }
+
 
 .intro-right, .two-right {
     padding: 5%;
     max-width: 40%;
     position: relative;
-    border: 1px solid white;
 }
 .intro-right img, .two-left img {
     border-radius: 50%;
@@ -62,6 +61,7 @@ h2 {
     opacity: 0.5;
     transition: 0.5s ease;
 }
+
 
 .img-description {
     max-width: 200px;
@@ -130,9 +130,50 @@ h2 {
 
 /* SECTION THREE */
 
-.headlineThree {
+.containerThree {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+ul {
+    list-style: none;
+    font-size: 2em;
     text-align: center;
 }
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color:#008DD5
+}
+
+a:hover, a:focus, #i-learned:hover {
+    text-decoration: underline;
+    color: #F3DE8A;
+    cursor: pointer;
+}
+
+.containerThree img {
+    height: 2rem;
+}
+
+#i-learned {
+    font-size: 4rem;
+}
+
+#skill-list {
+    visibility: hidden;
+    text-align: center;
+}
+
+#click-me {
+    margin-top: -50px;
+    transition: 1s ease;
+}
+
 
  @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 

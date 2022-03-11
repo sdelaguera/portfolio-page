@@ -225,7 +225,7 @@ a:hover, a:focus, #i-learned:hover {
         text-align: center;
     }
 
-    .containerOne img {
+    .containerOne img, .containerTwo img {
         width:100%;
 
     }

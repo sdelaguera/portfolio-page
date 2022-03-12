@@ -2,6 +2,9 @@ const checkpoint = 300;
 const learnedBtn = document.getElementById("i-learned")
 const skillList = document.getElementById("skill-list")
 const clickMe = document.getElementById("click-me")
+let slideIndex = 0;
+let slides = document.getElementsByClassName("carousel-item");
+showSlides();
  
 window.addEventListener("scroll", () => {
   const currentScroll = window.pageYOffset;
@@ -42,3 +45,21 @@ learnedBtn.addEventListener("click", function () {
         skillList.style.visibility = "none";
     }    
 });
+
+function showSlides() {
+  let i;
+  { 
+  let slides = document.getElementsByClassName("carousel-item");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.transition  = "3.0s";
+    slides[i].style.opacity = "0";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  }
+   slides[slideIndex-1].style.transition  = "3.0s";
+   slides[slideIndex-1].style.opacity = "1";
+ 
+  timer = setTimeout(showSlides, 3000);
+}
+

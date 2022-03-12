@@ -113,8 +113,6 @@ h2 {
 
  }
 
- .container
-
  .ellipse-one {
      display: inline-block;
      animation: ripple 2s ease infinite .1s;
@@ -259,22 +257,6 @@ a:hover, a:focus, #i-learned:hover {
         100% { transform: scale(1,1) translateY(0);}
     }
 
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-      }
-      
-      @-webkit-keyframes fade {
-        from {opacity: .4}
-        to {opacity: 1}
-      }
-      
-      @keyframes fade {
-        from {opacity: .4}
-        to {opacity: 1}
-      }
 
 @media (min-width: 300px) and (max-width: 600px) {
 

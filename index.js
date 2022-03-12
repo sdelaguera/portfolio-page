@@ -43,6 +43,7 @@ learnedBtn.addEventListener("click", function () {
         skillList.scrollIntoView({behavior: "smooth", block: "end"});
     } else {
         skillList.style.visibility = "none";
+        skillList.scrollIntoView({behavior: "smooth", block: "end"});
     }    
 });
 

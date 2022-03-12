@@ -182,23 +182,32 @@ a:hover, a:focus, #i-learned:hover {
 /* SECTION FOUR */
 
 .containerFour {
-    padding: 10%;
+    justify-content: space-evenly;
 }
 
+#containerFour-text {
+    max-width: 40%;
+}
+
+#carousel {
+    max-width: 40%;
+    position: relative;
+   
+}
   
 .carousel-item{
-    display: flex;
     position: absolute;
     opacity: 0;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 400px;
+    max-width: 400px;
   }
   
   .carousel-item.active{
     position: static;
     opacity: 1;
-    width: 100%;
   }
 
   .containerFour img {
@@ -206,11 +215,12 @@ a:hover, a:focus, #i-learned:hover {
       max-height: 400px;
   }
 
-  .containerFour h1 {
+  .containerFour h2 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #fffffe;
   }
 
 
@@ -257,6 +267,10 @@ a:hover, a:focus, #i-learned:hover {
       }
 
 @media (min-width: 300px) and (max-width: 600px) {
+
+    h1 {
+        font-size: 4rem;
+    }
     #container {
         display:flex;
         flex-direction: column;
@@ -283,5 +297,13 @@ a:hover, a:focus, #i-learned:hover {
     .containerOne img, .containerTwo img {
         max-width:90%;
 
+    }
+
+    #containerFour-text {
+        max-width: 100%;
+    }
+
+    #carousel {
+        padding-top: 100%;
     }
 }

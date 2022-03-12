@@ -170,7 +170,7 @@ a:hover, a:focus, #i-learned:hover {
 }
 
 #skill-list {
-    visibility: hidden;
+    display: none;
     text-align: center;
 }
 
@@ -224,6 +224,16 @@ a:hover, a:focus, #i-learned:hover {
   }
 
 
+  #contact {
+    position: sticky;
+    bottom: 0;
+    width: 200px;
+    padding: 1px;
+    background-color: #191d31;
+    min-height: 100%;
+}
+
+/* animations */
  @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
     40% {transform: translateY(-30px);} 

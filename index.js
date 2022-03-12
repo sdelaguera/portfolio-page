@@ -38,11 +38,11 @@ window.addEventListener("scroll", () => {
 
 
 learnedBtn.addEventListener("click", function () {
-    if (skillList.style.visibility = "none") {
-        skillList.style.visibility = "visible";
+    if (skillList.style.display = "none") {
+        skillList.style.display = "block";
         skillList.scrollIntoView({behavior: "smooth", block: "end"});
     } else {
-        skillList.style.visibility = "none";
+        skillList.style.display = "none";
         skillList.scrollIntoView({behavior: "smooth", block: "end"});
     }    
 });

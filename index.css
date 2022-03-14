@@ -41,7 +41,7 @@ h2 {
 
 .intro-left, .two-left {
     padding: 5%;
-    max-width: 60%;
+    max-width: 40%;
 }
 
 
@@ -52,7 +52,7 @@ h2 {
 }
 .intro-right img, .two-left img {
     border-radius: 50%;
-    max-width: 700px;
+    max-width: 500px;
     min-width: 300px;
 }
 
@@ -168,7 +168,6 @@ a:hover, a:focus, #i-learned:hover {
 }
 
 #skill-list {
-    display: none;
     text-align: center;
 }
 
@@ -185,6 +184,7 @@ a:hover, a:focus, #i-learned:hover {
 
 #containerFour-text {
     max-width: 40%;
+    border: 1px solid white;
 }
 
 #carousel {
@@ -221,15 +221,12 @@ a:hover, a:focus, #i-learned:hover {
     color: #fffffe;
   }
 
-
   #contact {
-    position: sticky;
-    bottom: 0;
-    width: 200px;
-    padding: 1px;
-    background-color: #191d31;
-    min-height: 100%;
-}
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+  }
 
 /* animations */
  @keyframes bounce {

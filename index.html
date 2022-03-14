@@ -9,91 +9,89 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;600&display=swap');
         </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <link rel="stylesheet" href="fullpage.css">
 </head>
 <body>
-    
+    <div id="fullpage">
+        <div id="container" class="containerOne section">
 
-    <div id="container" class="containerOne">
+            <div class="intro-left">
+                <h2>Hi <span class="emoji">👋</span> I'm</h2>
+                <h1>Sergio De La Guera</h1>
+                <p class="intro-text">A junior developer eager to enter the world of front-end!</p>
+            </div>
 
-        <div class="intro-left">
-            <h2>Hi <span class="emoji">👋</span> I'm</h2>
-            <h1>Sergio De La Guera</h1>
-            <p class="intro-text">A junior developer eager to enter the world of front-end!</p>
+            <div class="intro-right">
+                <div class="img-container"><img src="images/closeup.JPG"></div>
+            </div>
+
+            
+            <div class="intro-bottom">
+                <h2>Here's my story:</h2>
+                <img class="scroll-arrow" src="images/downarrow.png">
+            </div>
         </div>
-
-        <div class="intro-right">
-            <div class="img-container"><img src="images/intro.JPG">
-            <p class="img-description">I think I look cool, but the sun was just really bright.</p></div>
-        </div>
-
-        
-    </div>
-    
-    <div class="intro-bottom">
-        <h2>Here's my story:</h2>
-        <img class="scroll-arrow" src="images/downarrow.png">
-        
-    </div>
 
     <!-- FADE IN ON SCROLL-->
-    <div id="container" id="containerTwo" class="containerTwo" >
-        <div class="two-left">
-            <img src="images/storyone.jpg">
+        <div id="container" id="containerTwo" class="containerTwo section" >
+            <div class="two-left">
+                <img src="images/storyone.jpg">
+                
+            </div>
+
+            <div class="two-right">
+                <h1>Over 15 years in the service industry</h1>
+                <p>Serving the teeming masses taught me one thing above all:</p>
+                <h2 class="accent accent-one">attitude matters.</h2>
+                <p>I learned the soft skills necessary for today's market and the work ethic to execute <span class="accent">any task</span>, no matter how difficult.</p>
+                <h1 class="accent accent-two">however
+                    <span class="ellipse-one">.</span>
+                    <span class="ellipse-two">.</span>
+                    <span class="ellipse-three">.</span>
+                </h1>
+            </div>
+
+        </div>
+
+
+        <div id="container" class="containerThree section">
             
-        </div>
+        <h1 class="headlineThree">I knew tech + design were my passions.</h1>
+            <div class="three-text">
+                
+                <h2 id="i-learned"> So, I learned:</h2>             
+                <div id="skill-list"><ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                through <img src="images/scrimba.png"><a href="www.scrimba.com">Scrimba</a> and <img src="images/odin.png"><a href="www.theodinproject.com">The Odin Project</a> over the last three months.
 
-        <div class="two-right">
-            <h1>Over 15 years in the service industry</h1>
-            <p>Serving the teeming masses taught me one thing above all:</p>
-            <h2 class="accent accent-one">attitude matters.</h2>
-            <p>I learned the soft skills necessary for today's market and the work ethic to execute <span class="accent">any task</span>, no matter how difficult.</p>
-            <h1 class="accent accent-two">however
-                <span class="ellipse-one">.</span>
-                <span class="ellipse-two">.</span>
-                <span class="ellipse-three">.</span>
-            </h1>
-        </div>
-
-    </div>
-
-    <h1 class="headlineThree">I knew tech + design were my passions.</h1>
-
-    <div id="container" class="containerThree">
-        
-        <div class="three-text">
+                
+            </div>
             
-            <h2 id="i-learned"> So, I learned:</h2> 
-            <p id="click-me">(click for more)</p>
-            
-            <div id="skill-list"><ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-            through <img src="images/scrimba.png"><a href="www.scrimba.com">Scrimba</a> and <img src="images/odin.png"><a href="www.theodinproject.com">The Odin Project</a> over the last three months.
-
-            
+            </div>
         </div>
-        
+
+        <div id="container" class="containerFour section">
+            <div id="containerFour-text"><h1>What do I bring to the table?</h1></div>
+
+            <div id="carousel">
+                <div class="carousel-item carousel-item-one"><img src="images/background-shape-one.png"><h2>Modern Design Sensibility</h2></div>
+                <div class="carousel-item carousel-item-two"><img src="images/background-shape-two.png"><h2>Indomitable Work Ethic</h2></div>
+                <div class="carousel-item carousel-item-three"><img src="images/background-shape-three.png"><h2>Adept  Collaborator</h2></div>
+                <div class="carousel-item carousel-item-four"><img src="images/background-shape-four.png"><h2>Desire to Execute YOUR Vision</h2></div>
+            </div>
         </div>
-    </div>
 
-    <div id="container" class="containerFour">
-        <div id="containerFour-text"><h1>What do I bring to the table?</h1></div>
-
-        <div id="carousel">
-            <div class="carousel-item carousel-item-one"><img src="images/background-shape-one.png"><h2>Modern Design Sensibility</h2></div>
-            <div class="carousel-item carousel-item-two"><img src="images/background-shape-two.png"><h2>Indomitable Work Ethic</h2></div>
-            <div class="carousel-item carousel-item-three"><img src="images/background-shape-three.png"><h2>Adept  Collaborator</h2></div>
-            <div class="carousel-item carousel-item-four"><img src="images/background-shape-four.png"><h2>Desire to Execute YOUR Vision</h2></div>
+        <div id="contact" class="section">
+            <h2>Interested? <a href="mailto:sdelaguera@protonmail.com" target="_blank">Contact Me.</a></h2>
         </div>
     </div>
-
-    <div id="contact">
-        <h2>Interested? <a href="mailto:sdelaguera@protonmail.com" target="_blank">Contact Me.</a></h2>
-    </div>
-
     
+    /*fullscreen */
+    <script src="fullpage.js"></script>
     <script src="index.js"></script>
 </body>
 </html>

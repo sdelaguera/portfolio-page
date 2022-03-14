@@ -5,7 +5,16 @@ const clickMe = document.getElementById("click-me")
 let slideIndex = 0;
 let slides = document.getElementsByClassName("carousel-item");
 showSlides();
- 
+
+new fullpage('#fullpage', {
+	//options here
+	autoScrolling:true,
+	scrollHorizontally: true
+});
+
+//methods
+fullpage_api.setAllowScrolling(true);
+
 window.addEventListener("scroll", () => {
   const currentScroll = window.pageYOffset;
   if (currentScroll <= checkpoint) {
@@ -41,7 +50,7 @@ learnedBtn.addEventListener("click", function () {
     if (skillList.style.display = "none") {
         skillList.style.display = "block";
         skillList.scrollIntoView({behavior: "smooth", block: "end"});
-    } else {
+    } else if (skillList.style.display = "block") {
         skillList.style.display = "none";
         skillList.scrollIntoView({behavior: "smooth", block: "end"});
     }    

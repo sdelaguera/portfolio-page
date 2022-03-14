@@ -16,8 +16,12 @@ body {
 
 .containerOne {
     justify-content: center;
+    text-align: center;
 }
 
+.containerOne h1 {
+    margin: 0;
+}
 .emoji {
     display: inline-block;
     animation: wave 1s;

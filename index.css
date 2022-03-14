@@ -2,7 +2,7 @@ body {
     font-family: 'League Spartan', sans-serif;
     background-color: #232946;
     color: #b8c1ec;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -15,7 +15,7 @@ body {
 }
 
 .containerOne {
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .emoji {
@@ -28,14 +28,12 @@ body {
 h1 {
     color: #fffffe;
     font-size: 5rem;
-    
     font-weight: 700;
 }
 
 h2 {
     color: #b8c1ec;
     font-size: 2rem;
-    
     font-weight: 700;
 }
 
@@ -52,16 +50,9 @@ h2 {
 }
 .intro-right img, .two-left img {
     border-radius: 50%;
-    max-width: 500px;
-    min-width: 300px;
+    max-width: 400px;
 }
 
-.intro-right img:hover, img:focus {
-    background-color: black;
-    opacity: 0.5;
-    
-    transition: 0.5s ease;
-}
 
 
 .img-description {
@@ -90,10 +81,6 @@ h2 {
     width: 100px;
 }
 
- .containerTwo, .containerThree {
-     transition: 1s ease;
- }
-
  .accent {
      color: #eebbc3;
      font-weight: 700;
@@ -102,6 +89,7 @@ h2 {
  /* SECTION TWO */
 .containerTwo {
     justify-content: center;
+    background-color: #295135;
 }
  .accent-one {
      text-align: right;
@@ -136,10 +124,17 @@ h2 {
     max-width: 900px;
     margin: 0 auto;
     justify-content: center;
+    
+    background-color: #C44900;
 }
 
 .headlineThree {
     text-align: center;
+    max-width: 40%;
+}
+
+.three-text {
+    max-width: 40%;
 }
 ul {
     list-style: none;
@@ -179,17 +174,20 @@ a:hover, a:focus, #i-learned:hover {
 /* SECTION FOUR */
 
 .containerFour {
-    justify-content: space-evenly;
+    justify-content: center;
+    background-color: #AC80A0;
+    
 }
 
 #containerFour-text {
-    max-width: 40%;
-    border: 1px solid white;
+    max-width: 20%;
+    padding-right: 100px;
 }
 
 #carousel {
     max-width: 40%;
     position: relative;
+    padding-left: 300px;
    
 }
   
@@ -226,6 +224,7 @@ a:hover, a:focus, #i-learned:hover {
       margin: 0 auto;
       justify-content: center;
       align-items: center;
+      background-color: #DB3069;
   }
 
 /* animations */

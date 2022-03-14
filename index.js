@@ -9,7 +9,8 @@ showSlides();
 new fullpage('#fullpage', {
 	//options here
 	autoScrolling:true,
-	scrollHorizontally: true
+	scrollHorizontally: true,
+  responsiveHeight: 600
 });
 
 //methods

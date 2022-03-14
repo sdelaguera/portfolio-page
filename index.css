@@ -152,7 +152,7 @@ a {
     color: #CDC5B4; 
 }
 
-a:hover, a:focus, #i-learned:hover {
+a:hover, a:focus {
     text-decoration: underline;
     color: #F3DE8A;
     cursor: pointer;

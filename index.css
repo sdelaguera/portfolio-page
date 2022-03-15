@@ -298,5 +298,6 @@ a:hover, a:focus {
 
     #carousel {
         padding-top: 100%;
+        max-width: 80%;
     }
 }

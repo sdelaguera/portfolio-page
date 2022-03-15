@@ -10,7 +10,7 @@ new fullpage('#fullpage', {
 	//options here
 	autoScrolling:true,
 	scrollHorizontally: true,
-  responsiveHeight: 600
+  responsiveWidth: 800
 });
 
 //methods
